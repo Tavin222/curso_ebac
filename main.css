@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: black;
+    color: darkred;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.artigos article {
+    margin-bottom: 16px;
+}
+
+.artigos article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#esp {
+    background-color: rgba(0, 255, 10, 0.5);
+} 
+
+#eco {
+    background-color: rgba(194, 166, 40, 0.76);
+}
+
+#ent {
+    background-color: rgba(148, 27, 27, 0.5);
+}
+
+#tec {
+    background-color: rgba(72, 87, 218, 0.5);
+}
